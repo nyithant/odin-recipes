@@ -1,10 +1,43 @@
-h1 {
+#site-title {
     text-align: center;
     background-color:black;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Papyrus, sans-serif;
+}
+
+.recipe-title {
+    font-family: 'Lucida Handwriting', sans-serif;
+    color: floralwhite;
+    background-color: black;
 }
 
 span {
     color: orange;
+}
+
+#home {
+    font-size: 20px;
+    font-family: 'OCR A', sans-serif;
+    font-weight: bold;
+}
+
+.backdrop {
+    background-color: floralwhite;
+}
+
+.recipe-body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home-list {
+    font-family: 'OCR A', sans-serif;
+}
+
+.recipe-body .ingredients {
+    background-color: rgba(255, 207, 87, 0.856);
+    color: darkblue;
+}
+
+img {
+    width: 600px;
+    height: auto;
 }
