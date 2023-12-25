@@ -1,7 +1,11 @@
 #site-title {
     text-align: center;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
     background-color:black;
     color: white;
+    border: 3px solid orange;
     font-family: Papyrus, sans-serif;
 }
 
@@ -9,6 +13,8 @@
     font-family: 'Lucida Handwriting', sans-serif;
     color: floralwhite;
     background-color: black;
+    border: 2px solid orange;
+    margin-top: 15px;
 }
 
 span {
@@ -40,4 +46,19 @@ span {
 img {
     width: 600px;
     height: auto;
+}
+
+.home-button {
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(0, 124, 124);
+    color:floralwhite;
+    padding: 10px 20px;
+    margin: 2px 10px 2px 10px;
+}
+
+.home-button:hover {
+    background-color: black;
+    color: orange;
 }
