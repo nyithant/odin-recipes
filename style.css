@@ -25,6 +25,7 @@ span {
     font-size: 20px;
     font-family: 'OCR A', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .backdrop {
@@ -33,9 +34,6 @@ span {
 
 .recipe-body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#home-list {
-    font-family: 'OCR A', sans-serif;
 }
 
 .recipe-body .ingredients {
@@ -52,13 +50,39 @@ img {
     font-size: 30px;
     display: inline-block;
     text-decoration: none;
-    background-color: rgb(0, 124, 124);
-    color:floralwhite;
+    background-color: black;
+    color:antiquewhite;
     padding: 10px 20px;
     margin: 2px 10px 2px 10px;
+    border: 3px solid orange;
 }
 
 .home-button:hover {
     background-color: black;
     color: orange;
+}
+
+.recipes-list {
+    background-color: black;
+    width: 310px;
+    height: auto;
+    margin: 5px;
+    border: 3px solid orange;
+    padding: 10px;
+}
+
+.recipes-list a {
+    font-family: 'OCR A', sans-serif;
+    font-size: px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.recipes-list a:hover {
+    color:orange;
+}
+
+#home-gif {
+    display: block;
+    margin: auto;
 }
